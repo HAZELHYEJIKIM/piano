@@ -26,7 +26,7 @@ public class MyPiano extends AppCompatActivity {
     int ck = 0;
     int cnt = 0;
     int[] ar = new int[11];
-
+    //확인용 나중에 삭제하게요
     ArrayList<Integer[]> song1 = new ArrayList<Integer[]>();
     int[] br = {3, 2, 1, 2, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 2, 1, 2, 3, 3, 3, 2, 2, 3, 2, 1};
     int[] cr = {750, 250, 500, 500, 500, 500, 1000, 500, 500, 1000, 500, 500, 1000, 750, 250, 500, 500, 500, 500, 1000, 500, 500, 750, 250, 2000};
