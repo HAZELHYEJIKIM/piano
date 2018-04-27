@@ -2,7 +2,8 @@ package com.example.admin.myapplication;
 
 
 import android.content.Intent;
-        import android.media.AudioManager;
+import android.graphics.Color;
+import android.media.AudioManager;
         import android.media.MediaPlayer;
         import android.media.SoundPool;
         import android.os.Handler;
@@ -20,13 +21,13 @@ import android.content.Intent;
 public class MyPiano extends AppCompatActivity {
     private static final String TAG = "tiger";
     Handler handler = null;
-    int count=0;
-    Button[] btns = new Button[20];
+
+    Button[] btns = new Button[8];
     SoundPool pool;
     int ck = 0;
     int cnt = 0;
-    int[] ar = new int[11];
-    //확인용 나중에 삭제하게요
+    int[] ar = new int[8];
+
     ArrayList<Integer[]> song1 = new ArrayList<Integer[]>();
     int[] br = {3, 2, 1, 2, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 2, 1, 2, 3, 3, 3, 2, 2, 3, 2, 1};
     int[] cr = {750, 250, 500, 500, 500, 500, 1000, 500, 500, 1000, 500, 500, 1000, 750, 250, 500, 500, 500, 500, 1000, 500, 500, 750, 250, 2000};
@@ -41,7 +42,7 @@ public class MyPiano extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        for (int i = 0; i < 11; i++) {
+        for (int i = 0; i < 8; i++) {
             int id = getResources().getIdentifier("btn" + (i + 1), "id", "com.example.admin.myapplication");
             btns[i] = findViewById(id);
             btns[i].setOnClickListener(clickListener);
@@ -127,35 +128,49 @@ public class MyPiano extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void checked(int n) {
+       for(int i=0;i<8;i++) {
+           btns[i].setBackgroundColor(Color.WHITE);
+       }
+        btns[n].setBackgroundColor(Color.YELLOW);
+    }
     View.OnClickListener clickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.btn1:
+                    checked(0);
                     pool.play(ar[0], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn2:
+                    checked(1);
                     pool.play(ar[1], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn3:
+                    checked(2);
                     pool.play(ar[2], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn4:
+                    checked(3);
                     pool.play(ar[3], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn5:
+                    checked(4);
                     pool.play(ar[4], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn6:
+                    checked(5);
                     pool.play(ar[5], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn7:
+                    checked(6);
                     pool.play(ar[6], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn8:
+                    checked(7);
                     pool.play(ar[7], 1, 1, 0, 0, 1);
                     break;
-                case R.id.btn01:
+                /*case R.id.btn01:
                     pool.play(ar[8], 1, 1, 0, 0, 1);
                     break;
                 case R.id.btn03:
@@ -163,7 +178,7 @@ public class MyPiano extends AppCompatActivity {
                     break;
                 case R.id.btn04:
                     pool.play(ar[10], 1, 1, 0, 0, 1);
-                    break;
+                    break;*/
 
             }
         }

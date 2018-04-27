@@ -20,186 +20,186 @@
                 android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn7"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn8"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn01"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn03"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn04"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn12"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn13"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn14"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn15"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn16"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn17"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn18"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn19"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn20"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn21"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn22"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn23"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn24"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn25"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn26"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn27"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn28"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn29"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn30"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
 
             <Button
                 android:id="@+id/btn31"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
             <Button
                 android:id="@+id/btn32"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="#ffffff" />
         </LinearLayout>
 
         <LinearLayout
@@ -213,107 +213,107 @@
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="40dp"
-                android:background="@android:drawable/screen_background_dark" />
-
-            <Button
-                android:id="@+id/btn02"
-                android:layout_width="200dp"
-                android:layout_height="40dp"
-                android:layout_gravity="right"
-                android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn10"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
-                android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:layout_marginTop="20dp"
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn11"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
-                android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:layout_marginTop="80dp"
+                android:background="#000000" />
 
             <Button
-                android:id="@+id/btn05"
+                android:id="@+id/btn12"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
+
             <Button
-                android:id="@+id/btn06"
+                android:id="@+id/btn13"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:background="#000000" />
+            <Button
+                android:id="@+id/btn14"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
-                android:id="@+id/btn07"
+                android:id="@+id/btn15"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
-                android:id="@+id/btn08"
+                android:id="@+id/btn16"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
-                android:id="@+id/btn09"
+                android:id="@+id/btn17"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
-                android:id="@+id/btn010"
+                android:id="@+id/btn18"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
-                android:id="@+id/btn011"
+                android:id="@+id/btn19"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
-                android:id="@+id/btn012"
+                android:id="@+id/btn20"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
-                android:id="@+id/btn013"
+                android:id="@+id/btn21"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
-                android:id="@+id/btn014"
+                android:id="@+id/btn22"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn015"
@@ -321,14 +321,14 @@
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
                 android:id="@+id/btn016"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn017"
@@ -336,14 +336,14 @@
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
                 android:id="@+id/btn018"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn019"
@@ -351,7 +351,7 @@
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn020"
@@ -359,14 +359,14 @@
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
                 android:id="@+id/btn021"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/btn022"
@@ -374,14 +374,14 @@
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
             <Button
                 android:id="@+id/btn023"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
                 android:layout_marginTop="80dp"
-                android:background="@android:drawable/screen_background_dark" />
+                android:background="#000000" />
 
 
 
