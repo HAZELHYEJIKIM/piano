@@ -1,22 +1,18 @@
 package com.example.admin.myapplication;
 
-import android.content.Intent;
-import android.graphics.Color;
 import android.media.AudioManager;
-        import android.media.MediaPlayer;
-        import android.media.SoundPool;
-        import android.os.Handler;
-        import android.os.Message;
+import android.media.SoundPool;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.util.Log;
-        import android.view.Menu;
-        import android.view.MenuItem;
-        import android.view.View;
-        import android.widget.Button;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
-        import java.util.ArrayList;
+import java.util.ArrayList;
 
 public class MyPiano extends AppCompatActivity {
     private static final String TAG = "tiger";
@@ -46,7 +42,7 @@ public class MyPiano extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_my_piano);
 
         for (int i = 0; i < 8; i++) {
             int id = getResources().getIdentifier("btn" + (i + 1), "id", "com.example.admin.myapplication");
@@ -159,10 +155,12 @@ public class MyPiano extends AppCompatActivity {
     }
 
     public void checked(int n) {
-        for (int i = 0; i < 8; i++) {
-            btns[i].setBackgroundColor(Color.WHITE);
-        }
-        btns[n].setBackgroundColor(Color.YELLOW);
+       for(int i=0;i<8;i++) {
+           int id = getResources().getIdentifier("n" + (i + 1), "drawable", "com.example.admin.myapplication");
+           btns[i].setBackgroundResource(id);
+       }
+       int id = getResources().getIdentifier("s" + (n + 1), "drawable", "com.example.admin.myapplication");
+       btns[n].setBackgroundResource(id);
     }
 
     public void boolchecked(int n) {
@@ -251,16 +249,6 @@ public class MyPiano extends AppCompatActivity {
                         input.add(8);
                     }
                     break;
-                /*case R.id.btn01:
-                    pool.play(ar[8], 1, 1, 0, 0, 1);
-                    break;
-                case R.id.btn03:
-                    pool.play(ar[9], 1, 1, 0, 0, 1);
-                    break;
-                case R.id.btn04:
-                    pool.play(ar[10], 1, 1, 0, 0, 1);
-                    break;*/
-
             }
         }
     };
